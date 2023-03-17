@@ -81,6 +81,32 @@ const handleSubmit = async (e) => {
     const messageDiv = document.getElementById(uniqueId);
 
     loader(messageDiv);
+
+    //fetch data from the server -> bot's response
+    const response = await fetch('http://localhost:4200', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            prompt: data.get('prompt')
+        })
+    });
+
+    clearInterval(loadInterval);
+    messageDiv.innerHTML = '';
+
+    if(response.ok) {
+        const data = await response.json(); //actual response from BE
+        const parsedData = data.bot.trim();
+
+        typeText(messageDiv, parsedData);
+    } else {
+        const err = await response.text();
+
+        messageDiv.innerHTML = "Something went wrong!";
+        alert(err);
+    }
 }
 
 // to be able to see the changes we made to our handleSubmit, call it
