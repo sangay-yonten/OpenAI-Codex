@@ -1,5 +1,5 @@
 ## OpenAI-Codex
-Built and Deployed my own free ChatGPT AI Application that will help you code.
+This is a web application built using VanillaJS and Vite, hosted on Vercel. The server is hosted on Render. The application allows users to ask for help with programming languages -- similar to ChatGPT -- such as JavaScript, React, and more.
 
 It has an elegant user interface similar to the ChatGPT app, and it is capable of communicating with the advanced GPT-3 model API (**text-davinci-003** is used currently).
 One of the main features of this application is the ability to ask for help with programming languages such as JavaScript and React.
