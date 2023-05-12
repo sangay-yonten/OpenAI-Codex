@@ -19,7 +19,7 @@ The following are the server packages:
 | nodemon | ^2.0.21 |
 | openai | ^3.2.1 |
 
-You can lauch this application ---> <a href="https://open-ai-codex-coral.vercel.app/" target="_blank">here</a>.
+You can lauch this application **(my token has reached the limit)** ---> <a href="https://open-ai-codex-coral.vercel.app/" target="_blank">here</a>.
 
 ## To run the project locally
 Make sure you clone the repository from the `main` branch.
