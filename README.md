@@ -24,7 +24,7 @@ You can lauch this application **(my token has reached the limit)** ---> <a href
 ## To run the project locally
 Make sure you clone the repository from the `main` branch.
  ```git
-     git@github.com:sangay-yonten/OpenAI-Codex.git
+     git clone git@github.com:sangay-yonten/OpenAI-Codex.git
  ```
  After cloning the repository, perform the following to start the Frontend application and backend server. <br />
  **Step 1:** Start the Frontend (web application)
