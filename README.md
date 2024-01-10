@@ -1,14 +1,12 @@
 ## OpenAI-Codex
-This is a web application built using VanillaJS and Vite, hosted on Vercel. The server is hosted on Render. The application allows users to ask for help with programming languages -- similar to ChatGPT -- such as JavaScript, React, and more.
+This is a web application built using [VanillaJS](http://vanilla-js.com/) and [Vite](https://vitejs.dev/), hosted on [Vercel](https://vercel.com/). The server is hosted on [Render](https://render.com/). The application allows the users to ask for help with programming language(s) -- similar to ChatGPT -- such as JavaScript, React, and more.
 
 It has an elegant user interface similar to the ChatGPT app, and it is capable of communicating with the advanced GPT-3 model API (**ttext-davinci-001** is used in this example).
 One of the main features of this application is the ability to ask for help with programming languages such as JavaScript and React.
 Additionally, it can take code and translate it into another programming language.
 
 ## Development
-A web application built using the [VanillaJS](http://vanilla-js.com/) framework via [Vite](https://vitejs.dev/) - version 4.2.0, which is a next generation frontend tooling and hosted using [Vercel](https://vercel.com/).
-
-Web services (server) was hosted using [Render](https://render.com/).
+A web application built using _**VanillaJS**_ framework via _**Vite**_ - version 4.2.0, which is a next generation frontend tooling and hosted using _**Vercel**_. The web service (server) was hosted on _**Render**_.
 
 The following are the server packages:
 | Package Name | Version
