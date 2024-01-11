@@ -1,7 +1,7 @@
 ## OpenAI-Codex
 This is a web application built using [VanillaJS](http://vanilla-js.com/) and [Vite](https://vitejs.dev/), hosted on [Vercel](https://vercel.com/). The server is hosted on [Render](https://render.com/). The application allows the users to ask for help with programming language(s) -- similar to ChatGPT -- such as JavaScript, React, and more.
 
-It has an elegant user interface similar to the ChatGPT app, and it is capable of communicating with the advanced GPT-3 model API (**ttext-davinci-001** is used in this example).
+It has an elegant user interface similar to the ChatGPT app, and it is capable of communicating with the advanced GPT-3 model API (in this example **text-davinci-001** is being used).
 One of the main features of this application is the ability to ask for help with programming languages such as JavaScript and React.
 Additionally, it can take code and translate it into another programming language.
 
