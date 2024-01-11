@@ -1,7 +1,7 @@
 ## OpenAI-Codex
 This is a web application built using [VanillaJS](http://vanilla-js.com/) and [Vite](https://vitejs.dev/), hosted on [Vercel](https://vercel.com/). The server is hosted on [Render](https://render.com/). The application allows the users to ask for help with programming language(s) -- similar to ChatGPT -- such as JavaScript, React, and more.
 
-It has an elegant user interface similar to the ChatGPT app, and it is capable of communicating with the advanced GPT-3 model API (in this example **text-davinci-001** is being used).
+It has an elegant user interface similar to the ChatGPT app, and it is capable of communicating with the advanced GPT-3 model API (in this example, **text-davinci-001** is being used).
 One of the main features of this application is the ability to ask for help with programming languages such as JavaScript and React.
 Additionally, it can take code and translate it into another programming language.
 
@@ -24,8 +24,9 @@ Make sure you clone the repository from the `main` branch.
  ```git
      git clone git@github.com:sangay-yonten/OpenAI-Codex.git
  ```
- After cloning the repository, perform the following to start the Frontend application and backend server. <br />
- **Step 1:** Start the Frontend (web application)
+
+ After cloning the repository, perform the following to start the **Frontend application** and **Backend server**. <br />
+ **(a) STEP 1:** Start the Frontend (web application)
  ```git
   cd client
  ```
@@ -33,7 +34,7 @@ Make sure you clone the repository from the `main` branch.
   npm install && npm run dev
  ```
  
- **Step 2:** Open split terminal and start the server (BE)
+ **(b) STEP 2:** Open split terminal and start the server (BE)
  ```git
   cd server
  ```
@@ -41,7 +42,7 @@ Make sure you clone the repository from the `main` branch.
   npm install && npm run server
  ```
  
- **STEP 3 (_Optional_):** To add your custom API key and change the model <br />
+ **(c) STEP 3:** To add your custom API key and change the model <br />
  In the server directory, add a `.env` file and write OPENAI_API_KEY = "api_value_here", then save it and re-start or re-run the server.
  
  Open `server.js` file and update the model value/name by the desired model and update the changes to use it.
