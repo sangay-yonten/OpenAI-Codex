@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="app">
-      <div id="chat_container"></div>
-      <form>
+    <div class="app">
+      <div id="chat_container" class="chat_container"></div>
+      <form class="chat_container-input">
         <label for="prompt"></label>
-        <textarea id="prompt" name="prompt" rows="1" cols="1" placeholder="Ask Codex..."></textarea>
-        <button type="submit"><img src="assets/send.svg" alt="send" /></button>
+        <textarea id="prompt" name="prompt" rows="1" cols="1" placeholder="Ask Codex..." class="prompt"></textarea>
+        <button type="submit" class="submit-btn"><img src="assets/send.svg" alt="send" /></button>
       </form>
     </div>
     <script type="module" src="script.js"></script>
