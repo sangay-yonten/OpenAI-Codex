@@ -5,7 +5,7 @@ It has an elegant user interface similar to the ChatGPT app, and it is capable o
 One of the main features of this application is the ability to ask for help with programming languages such as JavaScript and React.
 Additionally, it can take code and translate it into another programming language.
 
-## Development
+## Development Environment
 A web application built using _**VanillaJS**_ framework via _**Vite**_ - version 4.2.0, which is a next generation frontend tooling and hosted using _**Vercel**_. The web service (server) was hosted on _**Render**_.
 
 The following are the server packages:
